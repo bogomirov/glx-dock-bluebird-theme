@@ -17,7 +17,7 @@ sep_display=
 Name=
 
 #S+[Default] Image's name or path :
-Icon=/home/ckane/.config/cairo-dock/current_theme/icons/terminal.svg
+Icon=
 
 #s[Default] Command to launch on click :
 #{Exemple : nautilus --no-desktop, gedit, etc. You can even enter a keyboard shortcut, for exemple <Alt>F1, <Ctrl>c,  <Ctrl>v, etc}
