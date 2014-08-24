@@ -33,6 +33,24 @@ What this README aims however, is to look at the questions above as a whole and 
 
 #Table of contents
 
+1. Prerequisites
+
+2. Install
+
+3. Upgrade
+
+4. Making changes
+
+5. Contribute
+
+6. Uninstall
+
+7. Final words
+
+8. Credits
+
+9. Legal notice
+
 #Prerequisites
 
 To achieve the effect intended by this theme, you will need the following free software and artwork installed and configured:
@@ -129,7 +147,7 @@ https://help.github.com/articles/adding-a-remote
 
 https://help.github.com/articles/creating-a-pull-request
 
-#Uninstall/Remove
+#Uninstall
 
 To uninstall the Bluebird theme from the Glx-Dock Theme Manager, open Terminal and execute:
 
