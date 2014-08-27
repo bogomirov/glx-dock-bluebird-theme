@@ -51,7 +51,7 @@ This README however, looks at these questions as a whole and tries to provide so
 
 8. Credits
 
-9. Legal notice
+9. Legal notices
 
 #Prerequisites
 
