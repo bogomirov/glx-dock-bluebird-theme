@@ -9,11 +9,13 @@ Bluebird theme for Glx-Dock (aka Cairo-Dock) has been carefully designed to brid
 
 * The consistent and strong associations between functions and their graphical representations, polished by the Faenza icon theme
 
-* The unobtrusive flexibility of the Glx-Dock
+* The unobtrusive flexibility of Glx-Dock
 
 and bring them together in a consistent manner.
 
 ![Screenshot of an XFCE desktop with the Bluebird theme and Glx-Dock](screenshot.png)
+
+Screenshot of an XFCE desktop with the Bluebird theme and Glx-Dock.
 
 Of course, one could look at this README also from a completely different standpoint. You might be asking:
 
@@ -53,7 +55,7 @@ This README however, looks at these questions as a whole and tries to provide so
 
 #Prerequisites
 
-To achieve the effect intended by the Bluebird theme for Glx-Dock, you will need the following free software and artwork installed and configured:
+To achieve the effect intended by the Bluebird Glx-Dock theme, you will need the following free software and artwork installed and configured:
 
 - *NIX OS with a desktop environment
 
@@ -64,6 +66,8 @@ To achieve the effect intended by the Bluebird theme for Glx-Dock, you will need
 - Faenza icon theme by thieum: http://tiheum.deviantart.com/art/Faenza-Icons-173323228
 
 - (optionally) Faience Azur icon theme distributed with the Faience icon theme by thieum: http://tiheum.deviantart.com/art/Faience-icon-theme-255099649
+
+- (optionally) Sapphire-turquoise gradient desktop wallpaper like: http://www.deviantart.com/morelikethis/304667728
 
 - Git core client: http://git-scm.com/downloads
 
@@ -77,6 +81,7 @@ Once the prerequisites above are met, in order to install the Bluebird theme for
 git clone https://github.com/bogomirov/glx-dock-bluebird-theme.git \
 ~/.config/cairo-dock/themes/Bluebird
 ```
+
 Note that installing the theme does not immediately affect the appearance of Glx-Dock. In order to actually **use** the theme, you should apply it through the Glx-Dock Theme Manager.
 
 #Upgrade
@@ -84,13 +89,17 @@ Note that installing the theme does not immediately affect the appearance of Glx
 Once installed by completing the step above, the Bluebird Glx-Dock theme can be upgraded by executing the following statements in Terminal:
 
 a) Switch to the folder where the Bluebird Glx-Dock theme is installed:
+
 ```
   cd ~/.config/cairo-dock/themes/Bluebird
 ```
+
 b) Upgrade the theme with the latest changes from the GitGub repo:
+
 ```
   git pull origin master
 ```
+
 Similarly, upgrading the theme this way does not immediately affect the appearance of Glx-Dock. In order to actually **use** the new version, you should re-apply the theme through the Glx-Dock Theme Manager.
 
 #Making changes
@@ -101,7 +110,7 @@ Now, there are two main issues to deal with here:
 
 * When you make a change to a document, artwork or software configuration, it is natural to assume that any previous modifications you have made are lost, together with the work you have done and the time you have spent on them. The question here is, are these previous changes recoverable, and if so - is it possible to easily switch back and forth between them?
 
-* Similarly, every time you upgrade your Bluebird Glx-Dock theme as described above, all changes you have implemented manually on your local copy so far will be lost. Therefore, is there a way for a compromise? Could you somehow merge your changes with the changes coming from the original repository?
+* Similarly, every time you upgrade your copy of the Bluebird Glx-Dock theme as described above, all changes you have implemented manually so far will be lost. Therefore, is there a way for a compromise? Could you somehow merge your changes with the changes coming from the original repository?
 
 All these issues have their elegant solutions with just few keystrokes. Nothing can be lost, and you would never need to repeat work you have already done. Accomplishing this however requires deeper understanding of commits, branching and merging, which are subjects of version control beyond the scope of this README. For an extensive discussion on the topic, you can see the free on-line book about Git: http://git-scm.com/book
 
@@ -132,9 +141,11 @@ Now that you have made modifications to your local copy of the Bluebird theme, y
 #Uninstall
 
 To uninstall the Bluebird theme from the Glx-Dock Theme Manager, open Terminal and execute:
+
 ```
 rm -rf ~/.config/cairo-dock/themes/Bluebird
 ```
+
 Note that removing the theme from the Glx-Dock Theme Manager does not alter the current appearance of Glx-Dock. In order to accomplish that also, you should either select another theme, or alter the appearance/configuration of Glx-Dock manually.
 
 Furthermore, removing the theme will **irrecoverably delete** the history of all modifications you have made. Therefore it is advisable to consider keeping an archive of your work elsewhere, e.g. by sharing it online.
@@ -143,9 +154,11 @@ Furthermore, removing the theme will **irrecoverably delete** the history of all
 
 This README has been written having the general end-user in mind, and not only the software developer, as most of the version control guides do. That is why the workflow followed here is different. This README also looks at the big picture. Whether you have found other software you would like to try, you write a book, an article or produce other kinds of digital media, use other type of OS and version control system or collaborate on a closed-source project over the corporate intranet, the workflow you follow is almost the same. Namely, one that aims achieving faster, better results easier.
 
+For another project with similar concept and design, see the Dust theme for Glx-Dock: https://github.com/bogomirov/glx-dock-dust-theme
+
 #Credits
 
-This theme utilizes code and/or artwork from the following sources:
+This project utilizes code and/or artwork from the following sources:
 
 * The Glx-Dock project: http://glx-dock.org/
 
@@ -161,4 +174,4 @@ This theme utilizes code and/or artwork from the following sources:
 
 Copyright on the project concept, theme design, the specific Glx-Dock configuration and some of the digital artwork &copy; Bogomir Bogomirov, 2014.
 
-This project is distributed under GPL version 3. See [LICENSE](LICENSE) file for details.
+This theme is distributed under GPL version 3. See [LICENSE](LICENSE) file for details.
