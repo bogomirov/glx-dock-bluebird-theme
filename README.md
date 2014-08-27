@@ -168,6 +168,8 @@ This project utilizes code and/or artwork from the following sources:
 
 * Faenza-Xfce icon theme by the Shimmer project: https://github.com/shimmerproject/Faenza-Xfce
 
+* Geany icon for the Faenza theme by Colomban Wendling: https://github.com/b4n/geany-faenza-icon
+
 * Xfce4.8 Panel BGs 1920x28 by kazu-spara: http://kazu-spara.deviantart.com/art/Xfce4-8-Panel-BGs-1920x28-267098524
 
 #Legal notices
