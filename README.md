@@ -1,7 +1,7 @@
 Bluebird Glx-Dock Theme
 =======================================================================
 
-**Sometimes even little things can make a difference. With the Bluebird theme for Glx-Dock you can add a little punch to your professional Linux desktop, that makes it even more useful and enjoyable.**
+**Sometimes even little things can make a difference. With the Bluebird theme for Glx-Dock you can add a little punch to your professional *NIX desktop, that makes it even more useful and enjoyable.**
 
 Bluebird theme for Glx-Dock (aka Cairo-Dock) has been carefully designed to bridge the best of many worlds:
 
