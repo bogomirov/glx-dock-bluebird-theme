@@ -5,11 +5,11 @@ Bluebird Glx-Dock Theme
 
 Bluebird theme for Glx-Dock (aka Cairo-Dock) has been carefully designed to bridge the best of many worlds:
 
-*The desktop clarity and simplicity offered by the Bluebird desktop theme
+* The desktop clarity and simplicity offered by the Bluebird desktop theme
 
-*The consistent and strong associations between functions and their graphical representations, polished by the Faenza icon theme
+* The consistent and strong associations between functions and their graphical representations, polished by the Faenza icon theme
 
-*The unobtrusive flexibility of the Glx-Dock
+* The unobtrusive flexibility of the Glx-Dock
 
 and bring them together in a consistent manner.
 
@@ -17,15 +17,15 @@ and bring them together in a consistent manner.
 
 Of course, one could look at this README also from a completely different standpoint. You might be asking:
 
-*Now that I have found a promising piece of software in that vast ocean of free open source, how do I take advantage of it?
+* Now that I have found a promising piece of software in that vast ocean of free open source, how do I take advantage of it?
 
-*How do I keep that software updated, since it is not (ever going to be) included my OS updates?
+* How do I keep that software updated, since it is not (ever going to be) included my OS updates?
 
-*What will happen if this software project gets abandoned? Can I continue to get bug fixes and new features from somewhere else?
+* What will happen if this software project gets abandoned? Can I continue to get bug fixes and new features from somewhere else?
 
-*Now that I have used and poked around that software a bit, I may have discovered and fixed few bugs, or even made some improvements. And if it is perfectly fine to keep all that for myself, how could I eventually share what I have achieved with friends, colleagues or the rest of the world?
+* Now that I have used and poked around that software a bit, I may have discovered and fixed few bugs, or even made some improvements. And if it is perfectly fine to keep all that for myself, how could I eventually share what I have achieved with friends, colleagues or the rest of the world?
 
-*And ultimately, if the software happens to be not what I have been looking for, how can I safely get rid of it?
+* And ultimately, if the software happens to be not what I have been looking for, how can I safely get rid of it?
 
 Clearly, questions like these have no simple answers. In fact, they reflect on complex topics like software development life cycle, asynchronous workflow, version control, systems integration etc., each covered extensively elsewhere.
 
@@ -55,27 +55,17 @@ This README however, looks at these questions as a whole and tries to provide so
 
 To achieve the effect intended by the Bluebird theme for Glx-Dock, you will need the following free software and artwork installed and configured:
 
--*NIX OS with a desktop environment
+- *NIX OS with a desktop environment
 
--Glx-Dock version 3.0.0 or newer
+- Glx-Dock version 3.0.0 or newer: http://glx-dock.org/
 
-http://glx-dock.org/
+- Bluebird desktop theme by the Shimmer Project: http://shimmerproject.org/project/bluebird/
 
--Bluebird desktop theme by the Shimmer Project
+- Faenza icon theme by thieum: http://tiheum.deviantart.com/art/Faenza-Icons-173323228
 
-http://shimmerproject.org/project/bluebird/
+- (optionally) Faience Azur icon theme distributed with the Faience icon theme by thieum: http://tiheum.deviantart.com/art/Faience-icon-theme-255099649
 
--Faenza icon theme by thieum
-
-http://tiheum.deviantart.com/art/Faenza-Icons-173323228
-
--(optionally) Faience Azur icon theme distributed with the Faience icon theme by thieum
-
-http://tiheum.deviantart.com/art/Faience-icon-theme-255099649
-
--Git core client
-
-http://git-scm.com/downloads
+- Git core client: http://git-scm.com/downloads
 
 Probably most of the items referenced above are already available through your *NIX OS distribution channels. The URLs are provided for your convenience, whether you choose to look for any newer versions.
 
@@ -107,9 +97,9 @@ Making changes to your local copy of the Bluebird Glx-Dock theme is pretty strai
 
 Now, there are two main issues to deal with here:
 
-*When you make a change to a document, artwork or software configuration, it is natural to assume that any previous modifications you have made are lost, together with the work you have done and the time you have spent on them. The question here is, are these previous changes recoverable, and if so - is it possible to easily switch back and forth between them?
+* When you make a change to a document, artwork or software configuration, it is natural to assume that any previous modifications you have made are lost, together with the work you have done and the time you have spent on them. The question here is, are these previous changes recoverable, and if so - is it possible to easily switch back and forth between them?
 
-*Similarly, every time you upgrade your Bluebird Glx-Dock theme as described above, all changes you have implemented manually on your local copy so far will be lost. Therefore, is there a way for a compromise? Could you somehow merge your changes with the changes coming from the original repository?
+* Similarly, every time you upgrade your Bluebird Glx-Dock theme as described above, all changes you have implemented manually on your local copy so far will be lost. Therefore, is there a way for a compromise? Could you somehow merge your changes with the changes coming from the original repository?
 
 All these issues have their elegant solutions with just few keystrokes. Nothing can be lost, and you would never need to repeat work you have already done. Accomplishing this however requires deeper understanding of commits, branching and merging, which are subjects of version control beyond the scope of this README. For an extensive discussion on the topic, you can see the free on-line book about Git: http://git-scm.com/book
 
@@ -119,17 +109,17 @@ For the sake of simplicity however, you can always update your theme first and m
 
 Now that you have made modifications to your local copy of the Bluebird theme, you might want to share them with the world. This would require dealing with the following issues:
 
-*Deciding where the on-line copy of the locally modified Bluebird theme will be hosted. This README assumes that you will use GitHub as an on-line provider, so you will need to open a free account with that service.
+* Deciding where the on-line copy of the locally modified Bluebird theme will be hosted. This README assumes that you will use GitHub as an on-line provider, so you will need to open a free account with that service.
 
-*Forking the original Bluebird Glx-Dock theme repository to your GitHub account
+* Forking the original Bluebird Glx-Dock theme repository to your GitHub account
 
 https://help.github.com/articles/fork-a-repo#fork-an-example-repository
 
-*Configuring your Git client to be able to send updates on-line:
+* Configuring your Git client to be able to send updates on-line:
 
 https://help.github.com/articles/set-up-git#setting-up-git
 
-*Configuring your local copy of the Bluebird Glx-Dock theme in a way that your modifications can be sent online, but still be able to incorporate updates as before. In order this to happen, you need to configure as origin your fork, and the original Bluebird theme repo as upstream:
+* Configuring your local copy of the Bluebird Glx-Dock theme in a way that your modifications can be sent online, but still be able to incorporate updates as before. In order this to happen, you need to configure as origin your fork, and the original Bluebird theme repo as upstream:
 
 https://help.github.com/articles/fork-a-repo#step-3-configure-git-to-sync-your-fork-with-the-original-spoon-knife-repository
 
@@ -137,11 +127,11 @@ https://help.github.com/articles/renaming-a-remote
 
 https://help.github.com/articles/adding-a-remote
 
-*From now on, you can publish online any changes you make
+* From now on, you can publish online any changes you make
 
 https://help.github.com/articles/pushing-to-a-remote
 
-*A final and optional step could be to initiate a pull request, so your changes to the Bluebird Glx-Dock theme can be incorporated in the original:
+* A final and optional step could be to initiate a pull request, so your changes to the Bluebird Glx-Dock theme can be incorporated in the original:
 
 https://help.github.com/articles/creating-a-pull-request
 
@@ -163,25 +153,15 @@ This README has been written having the general end-user in mind, and not only t
 
 This theme utilizes code and/or artwork from the following sources:
 
-The Glx-Dock project
+* The Glx-Dock project: http://glx-dock.org/
 
-http://glx-dock.org/
+* Faenza icon theme by thieum: http://tiheum.deviantart.com/art/Faenza-Icons-173323228
 
-Faenza icon theme by thieum
+* Faience icon theme by thieum: http://tiheum.deviantart.com/art/Faience-icon-theme-255099649
 
-http://tiheum.deviantart.com/art/Faenza-Icons-173323228
+* Faenza-Xfce icon theme by the Shimmer project: https://github.com/shimmerproject/Faenza-Xfce
 
-Faience icon theme by thieum
-
-http://tiheum.deviantart.com/art/Faience-icon-theme-255099649
-
-Faenza-Xfce icon theme by the Shimmer project
-
-https://github.com/shimmerproject/Faenza-Xfce
-
-Xfce4.8 Panel BGs 1920x28 by kazu-spara
-
-http://kazu-spara.deviantart.com/art/Xfce4-8-Panel-BGs-1920x28-267098524
+* Xfce4.8 Panel BGs 1920x28 by kazu-spara: http://kazu-spara.deviantart.com/art/Xfce4-8-Panel-BGs-1920x28-267098524
 
 #Legal notice
 
