@@ -170,8 +170,8 @@ This project utilizes code and/or artwork from the following sources:
 
 * Xfce4.8 Panel BGs 1920x28 by kazu-spara: http://kazu-spara.deviantart.com/art/Xfce4-8-Panel-BGs-1920x28-267098524
 
-#Legal notice
+#Legal notices
 
-Copyright on the project concept, theme design, the specific Glx-Dock configuration and some of the digital artwork &copy; Bogomir Bogomirov, 2014.
+Copyright on the project concept, theme design, the specific Glx-Dock configuration and some of the digital artwork &copy; 2014, Bogomir Bogomirov.
 
-This theme is distributed under GPL version 3. See [LICENSE](LICENSE) file for details.
+This theme is licensed under GPL version 3. See [LICENSE](LICENSE) file for details.
