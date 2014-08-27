@@ -77,7 +77,7 @@ Once the prerequisites above are met, in order to install the Bluebird theme for
 git clone https://github.com/bogomirov/glx-dock-bluebird-theme.git \
 ~/.config/cairo-dock/themes/Bluebird
 ```
-Note that installing the theme does not immediately affect the appearance of Glx-Dock. In order to actually *use* the theme, you should apply it through the Glx-Dock Theme Manager.
+Note that installing the theme does not immediately affect the appearance of Glx-Dock. In order to actually **use** the theme, you should apply it through the Glx-Dock Theme Manager.
 
 #Upgrade
 
@@ -91,7 +91,7 @@ b) Upgrade the theme with the latest changes from the GitGub repo:
 ```
   git pull origin master
 ```
-Similarly, upgrading the theme this way does not immediately affect the appearance of Glx-Dock. In order to actually *use* the new version, you should re-apply the theme through the Glx-Dock Theme Manager.
+Similarly, upgrading the theme this way does not immediately affect the appearance of Glx-Dock. In order to actually **use** the new version, you should re-apply the theme through the Glx-Dock Theme Manager.
 
 #Making changes
 
@@ -111,13 +111,13 @@ For the sake of simplicity however, you can always update your theme first and m
 
 Now that you have made modifications to your local copy of the Bluebird theme, you might want to share them with the world. This would require dealing with the following issues:
 
-* Deciding where the on-line copy of the locally modified Bluebird theme will be hosted. This README assumes that you will use GitHub as an on-line provider, so you will need to open a free account with that service.
+* Deciding where the on-line copy of the locally modified Bluebird theme will be hosted. This README assumes that you will use GitHub as an on-line provider, so you will need to open a free account with the service.
 
 * Forking the original Bluebird Glx-Dock theme repository to your GitHub account: https://help.github.com/articles/fork-a-repo#fork-an-example-repository
 
 * Configuring your Git client to be able to send updates on-line: https://help.github.com/articles/set-up-git#setting-up-git
 
-* Configuring your local copy of the Bluebird Glx-Dock theme in a way that your modifications can be sent online, but still be able to incorporate updates as before. In order this to happen, you need to configure as origin your fork, and the original Bluebird theme repo as upstream. For details, see:
+* Configuring your local copy of the Bluebird Glx-Dock theme in a way that your modifications can be sent online, but still be able to incorporate updates as before. In order this to happen, you need to configure your fork as **origin**, and the original Bluebird theme repo as **upstream**. For details, see:
 
   * Synchung a fork: https://help.github.com/articles/fork-a-repo#step-3-configure-git-to-sync-your-fork-with-the-original-spoon-knife-repository
 
@@ -137,11 +137,11 @@ rm -rf ~/.config/cairo-dock/themes/Bluebird
 ```
 Note that removing the theme from the Glx-Dock Theme Manager does not alter the current appearance of Glx-Dock. In order to accomplish that also, you should either select another theme, or alter the appearance/configuration of Glx-Dock manually.
 
-Furthermore, removing the theme will irrecoverably delete the history of all modifications you have made. Therefore it is advisable to consider keeping an archive of your work elsewhere, e.g. by sharing it online.
+Furthermore, removing the theme will **irrecoverably delete** the history of all modifications you have made. Therefore it is advisable to consider keeping an archive of your work elsewhere, e.g. by sharing it online.
 
 #Final words
 
-This README has been written having the general end-user in mind, and not only the software developer, as most of the version control guides do. That is why the workflow followed here is different. This README also looks at the big picture. Whether you have found other software you would like to try, you write a book, an article or produce other kinds of digital media, use other type of OS and version control system or collaborate on a closed-source project over the corporate intranet, the workflow you can follow is almost the same. Namely, one that aims achieving faster, and even better results easier.
+This README has been written having the general end-user in mind, and not only the software developer, as most of the version control guides do. That is why the workflow followed here is different. This README also looks at the big picture. Whether you have found other software you would like to try, you write a book, an article or produce other kinds of digital media, use other type of OS and version control system or collaborate on a closed-source project over the corporate intranet, the workflow you follow is almost the same. Namely, one that aims achieving faster, better results easier.
 
 #Credits
 
