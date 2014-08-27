@@ -73,8 +73,10 @@ Probably most of the items referenced above are already available through your *
 
 Once the prerequisites above are met, in order to install the Bluebird theme for Glx-Dock, execute the following statement in Terminal:
 
-git clone https://github.com/bogomirov/glx-dock-bluebird-theme.git ~/.config/cairo-dock/themes/Bluebird
-
+```
+git clone https://github.com/bogomirov/glx-dock-bluebird-theme.git \
+~/.config/cairo-dock/themes/Bluebird
+```
 Note that installing the theme does not immediately affect the appearance of Glx-Dock. In order to actually *use* the theme, you should apply it through the Glx-Dock Theme Manager.
 
 #Upgrade
@@ -82,13 +84,13 @@ Note that installing the theme does not immediately affect the appearance of Glx
 Once installed by completing the step above, the Bluebird Glx-Dock theme can be upgraded by executing the following statements in Terminal:
 
 1. Switch to the folder where the Bluebird Glx-Dock is installed:
-
-cd ~/.config/cairo-dock/themes/Bluebird
-
+```
+  cd ~/.config/cairo-dock/themes/Bluebird
+```
 2. Upgrade the theme with the latest changes from the GitGub repo:
-
-git pull origin master
-
+```
+  git pull origin master
+```
 Similarly, upgrading the theme this way does not immediately affect the appearance of Glx-Dock. In order to actually *use* the new version, you should re-apply the theme through the Glx-Dock Theme Manager.
 
 #Making changes
@@ -111,36 +113,28 @@ Now that you have made modifications to your local copy of the Bluebird theme, y
 
 * Deciding where the on-line copy of the locally modified Bluebird theme will be hosted. This README assumes that you will use GitHub as an on-line provider, so you will need to open a free account with that service.
 
-* Forking the original Bluebird Glx-Dock theme repository to your GitHub account
+* Forking the original Bluebird Glx-Dock theme repository to your GitHub account: https://help.github.com/articles/fork-a-repo#fork-an-example-repository
 
-https://help.github.com/articles/fork-a-repo#fork-an-example-repository
+* Configuring your Git client to be able to send updates on-line: https://help.github.com/articles/set-up-git#setting-up-git
 
-* Configuring your Git client to be able to send updates on-line:
+* Configuring your local copy of the Bluebird Glx-Dock theme in a way that your modifications can be sent online, but still be able to incorporate updates as before. In order this to happen, you need to configure as origin your fork, and the original Bluebird theme repo as upstream. For details, see:
 
-https://help.github.com/articles/set-up-git#setting-up-git
+  * Synchung a fork: https://help.github.com/articles/fork-a-repo#step-3-configure-git-to-sync-your-fork-with-the-original-spoon-knife-repository
 
-* Configuring your local copy of the Bluebird Glx-Dock theme in a way that your modifications can be sent online, but still be able to incorporate updates as before. In order this to happen, you need to configure as origin your fork, and the original Bluebird theme repo as upstream:
+  * Renaming a remote: https://help.github.com/articles/renaming-a-remote
 
-https://help.github.com/articles/fork-a-repo#step-3-configure-git-to-sync-your-fork-with-the-original-spoon-knife-repository
+  * Adding a remote: https://help.github.com/articles/adding-a-remote
 
-https://help.github.com/articles/renaming-a-remote
+* From now on, you can publish online any changes you make: https://help.github.com/articles/pushing-to-a-remote
 
-https://help.github.com/articles/adding-a-remote
-
-* From now on, you can publish online any changes you make
-
-https://help.github.com/articles/pushing-to-a-remote
-
-* A final and optional step could be to initiate a pull request, so your changes to the Bluebird Glx-Dock theme can be incorporated in the original:
-
-https://help.github.com/articles/creating-a-pull-request
+* A final and optional step could be to initiate a pull request, so your changes to the Bluebird Glx-Dock theme can be incorporated in the original: https://help.github.com/articles/creating-a-pull-request
 
 #Uninstall
 
 To uninstall the Bluebird theme from the Glx-Dock Theme Manager, open Terminal and execute:
-
+```
 rm -rf ~/.config/cairo-dock/themes/Bluebird
-
+```
 Note that removing the theme from the Glx-Dock Theme Manager does not alter the current appearance of Glx-Dock. In order to accomplish that also, you should either select another theme, or alter the appearance/configuration of Glx-Dock manually.
 
 Furthermore, removing the theme will irrecoverably delete the history of all modifications you have made. Therefore it is advisable to consider keeping an archive of your work elsewhere, e.g. by sharing it online.
