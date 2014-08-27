@@ -83,11 +83,11 @@ Note that installing the theme does not immediately affect the appearance of Glx
 
 Once installed by completing the step above, the Bluebird Glx-Dock theme can be upgraded by executing the following statements in Terminal:
 
-1. Switch to the folder where the Bluebird Glx-Dock is installed:
+a) Switch to the folder where the Bluebird Glx-Dock theme is installed:
 ```
   cd ~/.config/cairo-dock/themes/Bluebird
 ```
-2. Upgrade the theme with the latest changes from the GitGub repo:
+b) Upgrade the theme with the latest changes from the GitGub repo:
 ```
   git pull origin master
 ```
@@ -141,7 +141,7 @@ Furthermore, removing the theme will irrecoverably delete the history of all mod
 
 #Final words
 
-This README has been written having the general end-user in mind, and not only the software developer, as most of the version control guides do. That is why the workflow followed here is different. This README also looks at the big picture. Whether you have found other software you would like to try, you write write a book, an article or produce other kinds of digital media, use other type of OS and version control system or collaborate on a closed-source project over the corporate intranet, the workflow you can follow is almost the same. Namely, one that aims achieving faster, and even better results easier.
+This README has been written having the general end-user in mind, and not only the software developer, as most of the version control guides do. That is why the workflow followed here is different. This README also looks at the big picture. Whether you have found other software you would like to try, you write a book, an article or produce other kinds of digital media, use other type of OS and version control system or collaborate on a closed-source project over the corporate intranet, the workflow you can follow is almost the same. Namely, one that aims achieving faster, and even better results easier.
 
 #Credits
 
