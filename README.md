@@ -1,7 +1,31 @@
 Bluebird Glx-Dock Theme
 =======================================================================
 
-**Sometimes even little things can make a difference. With the Bluebird theme for Glx-Dock you can add a little punch to your professional *NIX desktop, that makes it even more useful and enjoyable.**
+Sometimes even little things can make a difference. With the Bluebird theme for Glx-Dock you can add a little punch to your professional *NIX desktop, that makes it even more useful and enjoyable.
+
+#Table of contents
+
+1. Introduction
+
+2. Prerequisites
+
+3. Install
+
+4. Upgrade
+
+5. Making changes
+
+6. Contribute
+
+7. Uninstall
+
+8. Final words
+
+9. Credits
+
+10. Legal notices
+
+#Introduction
 
 Bluebird theme for Glx-Dock (aka Cairo-Dock) has been carefully designed to bridge the best of many worlds:
 
@@ -32,26 +56,6 @@ Of course, one could look at this README also from a completely different standp
 Clearly, questions like these have no simple answers. In fact, they reflect on complex topics like software development life cycle, asynchronous workflow, version control, systems integration etc., each covered extensively elsewhere.
 
 This README however, looks at these questions as a whole and tries to provide some essential answers in a neat and simple (but in no way simplistic) manner. Therefore, one can think of this README as a short, hands-on, end-user survival guide to the world of open source.
-
-#Table of contents
-
-1. Prerequisites
-
-2. Install
-
-3. Upgrade
-
-4. Making changes
-
-5. Contribute
-
-6. Uninstall
-
-7. Final words
-
-8. Credits
-
-9. Legal notices
 
 #Prerequisites
 
