@@ -75,7 +75,7 @@ To achieve the effect intended by the Bluebird Glx-Dock theme, you will need the
 
 - Git core client: http://git-scm.com/downloads
 
-Probably most of the items referenced above are already available through your *NIX OS distribution channels. The URLs are provided for your convenience, whether you choose to look for any newer versions.
+Probably most of the items referenced above are already available through your *NIX OS distribution channels. The URLs are provided for your convenience, whether you choose to look for any last-minute fixes and updates.
 
 #Install
 
@@ -108,13 +108,13 @@ Similarly, upgrading the theme this way does not immediately affect the appearan
 
 #Making changes
 
-Making changes to your local copy of the Bluebird Glx-Dock theme is pretty straightforward. Just alter the appearance and behavior of Glx-Dock through its configuration panel and export the changes overwriting the Bluebird theme through the Theme Manager.
+Making changes to your local copy of the Bluebird theme for Glx-Dock is pretty straightforward. Just alter the appearance and behavior of Glx-Dock through its configuration panel and export the changes overwriting the Bluebird theme through the Theme Manager.
 
 Now, there are two main issues to deal with here:
 
 * When you make a change to a document, artwork or software configuration, it is natural to assume that any previous modifications you have made are lost, together with the work you have done and the time you have spent on them. The question here is, are these previous changes recoverable, and if so - is it possible to easily switch back and forth between them?
 
-* Similarly, every time you upgrade your copy of the Bluebird Glx-Dock theme as described above, all changes you have implemented manually so far will be lost. Therefore, is there a way for a compromise? Could you somehow merge your changes with the changes coming from the original repository?
+* Similarly, every time you upgrade your copy of the theme as described above, all changes you have implemented manually so far will be lost. Therefore, is there a way for a compromise? Could you somehow merge your changes with the changes coming from the original repository?
 
 All these issues have their elegant solutions with just few keystrokes. Nothing can be lost, and you would never need to repeat work you have already done. Accomplishing this however requires deeper understanding of commits, branching and merging, which are subjects of version control beyond the scope of this README. For an extensive discussion on the topic, you can see the free on-line book about Git: http://git-scm.com/book
 
@@ -122,15 +122,15 @@ For the sake of simplicity however, you can always update your theme first and m
 
 #Contribute
 
-Now that you have made modifications to your local copy of the Bluebird theme, you might want to share them with the world. This would require dealing with the following issues:
+Now that you have made modifications to your local copy of the theme, you might want to share them with the world. This would require dealing with the following issues:
 
-* Deciding where the on-line copy of the locally modified Bluebird theme will be hosted. This README assumes that you will use GitHub as an on-line provider, so you will need to open a free account with the service.
+* Deciding where the on-line copy of the locally modified theme will be hosted. This README assumes that you will use GitHub as an on-line provider, so you will need to open a free account with the service.
 
-* Forking the original Bluebird Glx-Dock theme repository to your GitHub account: https://help.github.com/articles/fork-a-repo#fork-an-example-repository
+* Forking the original Bluebird Glx-Dock Theme repository to your GitHub account: https://help.github.com/articles/fork-a-repo#fork-an-example-repository
 
 * Configuring your Git client to be able to send updates on-line: https://help.github.com/articles/set-up-git#setting-up-git
 
-* Configuring your local copy of the Bluebird Glx-Dock theme in a way that your modifications can be sent online, but still be able to incorporate updates as before. In order this to happen, you need to configure your fork as **origin**, and the original Bluebird theme repo as **upstream**. For details, see:
+* Configuring your local copy of the Bluebird Glx-Dock Theme repository in a way that your modifications can be sent online, but still be able to incorporate updates as before. In order this to happen, you need to configure your fork as **origin**, and the original Bluebird Glx-Dock Theme repo as **upstream**. For details, see:
 
   * Synchung a fork: https://help.github.com/articles/fork-a-repo#step-3-configure-git-to-sync-your-fork-with-the-original-spoon-knife-repository
 
@@ -140,7 +140,7 @@ Now that you have made modifications to your local copy of the Bluebird theme, y
 
 * From now on, you can publish online any changes you make: https://help.github.com/articles/pushing-to-a-remote
 
-* A final and optional step could be to initiate a pull request, so your changes to the Bluebird Glx-Dock theme can be incorporated in the original: https://help.github.com/articles/creating-a-pull-request
+* A final and optional step could be to initiate a pull request, so your changes to the Bluebird theme for Glx-Dock can be incorporated in the original repository: https://help.github.com/articles/creating-a-pull-request
 
 #Uninstall
 
@@ -156,7 +156,7 @@ Furthermore, removing the theme will **irrecoverably delete** the history of all
 
 #Final words
 
-This README has been written having the general end-user in mind, and not only the software developer, as most of the version control guides do. That is why the workflow followed here is different. This README also looks at the big picture. Whether you have found other software you would like to try, you write a book, an article or produce other kinds of digital media, use other type of OS and version control system or collaborate on a closed-source project over the corporate intranet, the workflow you follow is almost the same. Namely, one that aims achieving faster, better results easier.
+This README has been written having the general end-user in mind, and not only the software developer, as most of the version control guides do. That is why the workflow followed here is different. This README also looks at the big picture. Whether you have found other software you would like to try, you write a book, an article or produce other kinds of digital media, use other type of OS and version control system or collaborate on a closed-source project over the corporate intranet, the workflow you follow should be almost the same. Namely, one that aims achieving faster, better results easier.
 
 For another project with similar concept and design, see the Dust theme for Glx-Dock: https://github.com/bogomirov/glx-dock-dust-theme
 
