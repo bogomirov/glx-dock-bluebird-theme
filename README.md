@@ -73,7 +73,7 @@ To achieve the effect intended by the Bluebird Glx-Dock theme, you will need the
 
 - (optionally) Sapphire-turquoise gradient desktop wallpaper like: http://www.deviantart.com/morelikethis/304667728
 
-- Git core client: http://git-scm.com/downloads
+- Git&trade; core client: http://git-scm.com/downloads
 
 Probably most of the items referenced above are already available through your *NIX OS distribution channels. The URLs are provided for your convenience, whether you choose to look for any last-minute fixes and updates.
 
@@ -177,6 +177,8 @@ This project utilizes code and/or artwork from the following sources:
 * Xfce4.8 Panel BGs 1920x28 by kazu-spara: http://kazu-spara.deviantart.com/art/Xfce4-8-Panel-BGs-1920x28-267098524
 
 #Legal notices
+
+Git is a trademark of Software Freedom Conservancy, Inc.
 
 Copyright on the project concept, theme design, the specific Glx-Dock configuration and some of the digital artwork &copy; 2014, Bogomir Bogomirov.
 
